@@ -1,6 +1,6 @@
 # OrbitWeatherCard
 
-<img src = 'https://velog.velcdn.com/images/yonghyeun/post/f261b7f8-ae75-4c16-a0df-82b6cc8f64bd/image.gif' alt ='result'>
+<img src = 'result.gif' alt ='result'>
 <br>
 
 원형으로 돌아가는 카드 배너를 만들어보았습니다.
