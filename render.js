@@ -41,17 +41,17 @@ class WeatherRender extends WeatherFetch {
       6: 'Sunday',
     };
     this.PTYmap = {
-      0: ['sunny', 'blob/main/images/sunny.png'], // 맑음
-      1: ['rainy', 'blob/main/images/rainy.png'], // 비
-      2: ['snow', 'blob/main/images/snow.png'], // 비/눈
-      3: ['snow', 'blob/main/images/snow.png'], // 눈
-      4: ['shower', 'blob/main/images/rain-thunder.png'], // 소나기
-      5: ['windy', 'blob/main/images/windy.png'], // 바람 많음
+      0: ['sunny', 'images/sunny.png'], // 맑음
+      1: ['rainy', 'images/rainy.png'], // 비
+      2: ['snow', 'images/snow.png'], // 비/눈
+      3: ['snow', 'images/snow.png'], // 눈
+      4: ['shower', 'images/rain-thunder.png'], // 소나기
+      5: ['windy', 'images/windy.png'], // 바람 많음
     };
     this.SKYmap = {
-      1: ['sunny', 'blob/main/images/sunny.png'],
-      3: ['cloudy', 'blob/main/images/cloudy.png'],
-      4: ['windy', 'blob/main/images/windy.png'],
+      1: ['sunny', 'images/sunny.png'],
+      3: ['cloudy', 'images/cloudy.png'],
+      4: ['windy', 'images/windy.png'],
     };
     this.hours = Array.from({ length: 25 }, (_, i) => {
       const paddedHour = `0${i}`.slice(-2);
