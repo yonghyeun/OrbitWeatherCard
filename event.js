@@ -17,7 +17,7 @@ class Swiper {
   }
 
   changeIsClick() {
-    this.isClick = !this.isClick;
+    this.isClick = true;
   }
 
   calculateDistance(e) {
@@ -50,7 +50,8 @@ class Swiper {
       rotCard.moveLeft();
     }
 
-    this.changeIsClick();
+    // this.changeIsClick();
+    this.isClick = false;
   }
 }
 

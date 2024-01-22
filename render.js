@@ -49,7 +49,7 @@ class WeatherRender extends WeatherFetch {
       5: ['windy', 'images/windy.png'], // 바람 많음
     };
     this.SKYmap = {
-      0: ['sunny', '/images/sunny.png'],
+      1: ['sunny', '/images/sunny.png'],
       3: ['cloudy', '/images/cloudy.png'],
       4: ['windy', '/images/windy.png'],
     };
@@ -70,10 +70,10 @@ class WeatherRender extends WeatherFetch {
   }
 
   choiceSrc(ptyCode, skyCode) {
-    if (!ptyCode) {
-      return this.SKYMAP[skyCode];
+    if (!skyCode) {
+      return this.PTYmap[ptyCode];
     }
-    return this.PTYmap[ptyCode];
+    return this.SKYmap[skyCode];
   }
 
   getDate() {
